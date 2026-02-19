@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-forecastquery`](https://www.npmjs.com/package/@aws-sdk/client-forecastquery/v/3.235.0).
+[`@aws-sdk/client-forecastquery`](https://www.npmjs.com/package/@aws-sdk/client-forecastquery/v/3.236.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.235.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.236.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-/pYX34BV56DvBEXZdMBsqwKDjgx/vLFb3rlstnKYXpAWGtiA+PfKMYgpCVvBGf8R
+sha384-q1fMCAe3ndxzF+7YAW5Y7o259hzZpBTNI4myc+SpccbZ2wl3M0/5co26jUIn8uZT
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.235.0/index.min.mjs"
+            "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.236.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.235.0/index.min.mjs": "sha384-/pYX34BV56DvBEXZdMBsqwKDjgx/vLFb3rlstnKYXpAWGtiA+PfKMYgpCVvBGf8R"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.236.0/index.min.mjs": "sha384-q1fMCAe3ndxzF+7YAW5Y7o259hzZpBTNI4myc+SpccbZ2wl3M0/5co26jUIn8uZT"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.235.0/index.min.mjs"
+                        "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.236.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.235.0/index.min.mjs": "sha384-/pYX34BV56DvBEXZdMBsqwKDjgx/vLFb3rlstnKYXpAWGtiA+PfKMYgpCVvBGf8R"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.236.0/index.min.mjs": "sha384-q1fMCAe3ndxzF+7YAW5Y7o259hzZpBTNI4myc+SpccbZ2wl3M0/5co26jUIn8uZT"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.235.0`)
+* Always pin to a specific version (`@3.236.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-forecastquery/blob/refs/tags/3.235.0/LICENSE
+https://github.com/cloud-sdk-builds/client-forecastquery/blob/refs/tags/3.236.0/LICENSE
 ```
 
 ---
