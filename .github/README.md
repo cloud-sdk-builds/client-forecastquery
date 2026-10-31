@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-forecastquery`](https://www.npmjs.com/package/@aws-sdk/client-forecastquery/v/3.1160.0).
+[`@aws-sdk/client-forecastquery`](https://www.npmjs.com/package/@aws-sdk/client-forecastquery/v/3.1161.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-forecastquery - [https://cloud-sdk-builds.github.io/?sdk=client-forecastquery](https://cloud-sdk-builds.github.io/?sdk=client-forecastquery)
-- @aws-sdk/client-forecastquery v3.1160.0 - [https://cloud-sdk-builds.github.io/?sdk=client-forecastquery&version=3.1160.0](https://cloud-sdk-builds.github.io/?sdk=client-forecastquery&version=3.1160.0)
+- @aws-sdk/client-forecastquery v3.1161.0 - [https://cloud-sdk-builds.github.io/?sdk=client-forecastquery&version=3.1161.0](https://cloud-sdk-builds.github.io/?sdk=client-forecastquery&version=3.1161.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1160.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1161.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ns3Ix6Agr2WSkLgy3AyViShObEZsXFeM46fp+ic71TwS/lkphak3F59/dcke4Bjc
+sha384-+cOd0cd/OyWM8zfPs+XM5zyll2UpP87TI0/Rwni8+9AdSckAzwrFfUDxxXTq+XBW
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1160.0/index.min.mjs"
+            "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1161.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1160.0/index.min.mjs": "sha384-ns3Ix6Agr2WSkLgy3AyViShObEZsXFeM46fp+ic71TwS/lkphak3F59/dcke4Bjc"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1161.0/index.min.mjs": "sha384-+cOd0cd/OyWM8zfPs+XM5zyll2UpP87TI0/Rwni8+9AdSckAzwrFfUDxxXTq+XBW"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1160.0/index.min.mjs"
+                        "@aws-sdk/client-forecastquery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1161.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1160.0/index.min.mjs": "sha384-ns3Ix6Agr2WSkLgy3AyViShObEZsXFeM46fp+ic71TwS/lkphak3F59/dcke4Bjc"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-forecastquery@3.1161.0/index.min.mjs": "sha384-+cOd0cd/OyWM8zfPs+XM5zyll2UpP87TI0/Rwni8+9AdSckAzwrFfUDxxXTq+XBW"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1160.0`)
+* Always pin to a specific version (`@3.1161.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-forecastquery/blob/refs/tags/3.1160.0/LICENSE
+https://github.com/cloud-sdk-builds/client-forecastquery/blob/refs/tags/3.1161.0/LICENSE
 ```
 
 ---
